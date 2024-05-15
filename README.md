@@ -27,7 +27,7 @@ Deployed Router contract at address: 0xD92773693917F0fF664f85c3cB698c33420947ff
 
 The Swap Widget bundles the whole swapping experience into a single React component that developers can easily embed in their app with one line of code. 
 
-![swap widget screenshot](https://raw.githubusercontent.com/bullishgopher/uniswap-widgets/sc.png)
+![swap widget screenshot](https://raw.githubusercontent.com/bullishgopher/uniswap-widgets/main/sc.png)
 
 You can customize the theme (colors, fonts, border radius, and more) to match the style of your application. You can also configure your own default token list and optionally set a convenience fee on swaps executed through the widget on your site.
 
