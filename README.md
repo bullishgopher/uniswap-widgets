@@ -10,6 +10,7 @@ The `@dex-swap/widgets` package is an [npm package](https://www.npmjs.com/packag
 Here is the rpc and account info:
 
 ```
+CHAIN_ID=412346
 RPC_URL="http://localhost:8547"
 PRIVATE_KEY=""
 ACCOUNT_ADDRESS=0x3f1Eae7D46d88F08fc2F8ed27FCb2AB183EB2d0E

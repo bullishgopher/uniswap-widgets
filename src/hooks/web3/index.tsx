@@ -181,6 +181,7 @@ function useWeb3ReactConnectors({ defaultChainId, provider, jsonRpcUrlMap }: Pro
         SupportedChainId.OPTIMISM,
         SupportedChainId.ARBITRUM_ONE,
         SupportedChainId.BASE,
+        SupportedChainId.ARBITRUM_DEMO,
       ],
       optionalChains: [...L1_CHAIN_IDS, ...L2_CHAIN_IDS],
       optionalMethods: ['eth_signTypedData', 'eth_signTypedData_v4', 'eth_sign'],
