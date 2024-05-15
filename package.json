@@ -1,9 +1,9 @@
 {
-  "name": "@wunsz-4soft/uniswap-widgets",
-  "version": "2.59.1-main.20",
+  "name": "@dex-swap/widgets",
+  "version": "2.59.3",
   "description": "Uniswap Interface",
-  "homepage": "https://github.com/Wunsz/4soft-uniswap-widgets#readme",
-  "repository": "https://github.com/Wunsz/4soft-uniswap-widgets",
+  "homepage": "https://github.com/bullishgopher/uniswap-widgets#readme",
+  "repository": "https://github.com/bullishgopher/uniswap-widgets",
   "files": [
     "dist"
   ],
