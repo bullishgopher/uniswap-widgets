@@ -155,7 +155,7 @@ const CHAIN_INFO: ChainInfoMap = {
     color: '#28A0F0',
     backgroundColor: '#28a0f029',
   },
-  [SupportedChainId.ARBITRUM_RINKEBY]: {
+  [SupportedChainId.ARBITRUM_DEMO]: {
     networkType: NetworkType.L2,
     blockWaitMsBeforeWarning: ms`10m`,
     bridge: 'https://bridge.arbitrum.io/',

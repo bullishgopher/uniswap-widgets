@@ -60,12 +60,12 @@ export const USDC_ARBITRUM = new Token(
   'USDC',
   'USD//C'
 )
-export const USDC_ARBITRUM_RINKEBY = new Token(
-  SupportedChainId.ARBITRUM_RINKEBY,
-  '0x09b98f8b2395d076514037ff7d39a091a536206c',
+export const USDC_ARBITRUM_DEMO = new Token(
+  SupportedChainId.ARBITRUM_DEMO,
+  '0xCe5303b8e8BFCa9d1857976F300fb29928522c6F',
   6,
-  'USDC',
-  'USD//C'
+  'UNI-V2',
+  'UNI-V2-01-USDC'
 )
 export const USDC_POLYGON = new Token(
   SupportedChainId.POLYGON,
@@ -111,10 +111,10 @@ export const DAI = new Token(
 )
 export const DAI_ARBITRUM_ONE = new Token(
   SupportedChainId.ARBITRUM_ONE,
-  '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
+  '0x1D55838a9EC169488D360783D65e6CD985007b72',
   18,
-  'DAI',
-  'Dai stable coin'
+  'UNI-V2',
+  'UNI-V2-02-DAI'
 )
 export const DAI_OPTIMISM = new Token(
   SupportedChainId.OPTIMISM,
@@ -141,7 +141,7 @@ export const USDC: { [chainId in SupportedChainId]: Token } = {
   [SupportedChainId.MAINNET]: USDC_MAINNET,
   [SupportedChainId.ARBITRUM_ONE]: USDC_ARBITRUM,
   [SupportedChainId.OPTIMISM]: USDC_OPTIMISM,
-  [SupportedChainId.ARBITRUM_RINKEBY]: USDC_ARBITRUM_RINKEBY,
+  [SupportedChainId.ARBITRUM_DEMO]: USDC_ARBITRUM_DEMO,
   [SupportedChainId.OPTIMISM_GOERLI]: USDC_OPTIMISM_GOERLI,
   [SupportedChainId.POLYGON]: USDC_POLYGON,
   [SupportedChainId.POLYGON_MUMBAI]: USDC_POLYGON_MUMBAI,
@@ -478,8 +478,8 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     'WETH',
     'Wrapped Ether'
   ),
-  [SupportedChainId.ARBITRUM_RINKEBY]: new Token(
-    SupportedChainId.ARBITRUM_RINKEBY,
+  [SupportedChainId.ARBITRUM_DEMO]: new Token(
+    SupportedChainId.ARBITRUM_DEMO,
     '0xB47e6A5f8b33b3F17603C83a0535A9dcD7E32681',
     18,
     'WETH',
@@ -587,7 +587,7 @@ export const TOKEN_SHORTHANDS: { [shorthand: string]: { [chainId in SupportedCha
     [SupportedChainId.MAINNET]: USDC_MAINNET.address,
     [SupportedChainId.ARBITRUM_ONE]: USDC_ARBITRUM.address,
     [SupportedChainId.OPTIMISM]: USDC_OPTIMISM.address,
-    [SupportedChainId.ARBITRUM_RINKEBY]: USDC_ARBITRUM_RINKEBY.address,
+    [SupportedChainId.ARBITRUM_DEMO]: USDC_ARBITRUM_DEMO.address,
     [SupportedChainId.OPTIMISM_GOERLI]: USDC_OPTIMISM_GOERLI.address,
     [SupportedChainId.POLYGON]: USDC_POLYGON.address,
     [SupportedChainId.POLYGON_MUMBAI]: USDC_POLYGON_MUMBAI.address,

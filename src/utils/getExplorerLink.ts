@@ -44,7 +44,7 @@ export function getExplorerLink(chainId: number, data: string, type: ExplorerDat
     }
   }
 
-  if (chainId === SupportedChainId.ARBITRUM_RINKEBY) {
+  if (chainId === SupportedChainId.ARBITRUM_DEMO) {
     switch (type) {
       case ExplorerDataType.TRANSACTION:
         return `https://rinkeby-explorer.arbitrum.io/tx/${data}`

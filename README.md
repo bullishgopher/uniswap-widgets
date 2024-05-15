@@ -5,6 +5,24 @@
 
 The `@dex-swap/widgets` package is an [npm package](https://www.npmjs.com/package/@dex-swap/widgets) of React components used to provide subsets of the Uniswap Protocol functionality in a small and configurable user interface element.
 
+## New Demo Chain
+
+Here is the rpc and account info:
+
+```
+RPC_URL="http://localhost:8547"
+PRIVATE_KEY=""
+ACCOUNT_ADDRESS=0x3f1Eae7D46d88F08fc2F8ed27FCb2AB183EB2d0E
+```
+
+These are contract addresses. The token contracts are already funded:
+
+```
+Deployed ERC20 contract 1 at address: 0xCe5303b8e8BFCa9d1857976F300fb29928522c6F
+Deployed ERC20 contract 2 at address: 0x1D55838a9EC169488D360783D65e6CD985007b72
+Deployed Router contract at address: 0xD92773693917F0fF664f85c3cB698c33420947ff
+```
+
 # Uniswap Labs Swap Widget
 
 The Swap Widget bundles the whole swapping experience into a single React component that developers can easily embed in their app with one line of code. 

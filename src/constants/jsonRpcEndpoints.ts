@@ -52,9 +52,9 @@ export const JSON_RPC_FALLBACK_ENDPOINTS: Record<SupportedChainId, string[]> = {
     // "Fallback" URLs
     'https://arbitrum.public-rpc.com',
   ],
-  [SupportedChainId.ARBITRUM_RINKEBY]: [
+  [SupportedChainId.ARBITRUM_DEMO]: [
     // "Safe" URLs
-    'https://rinkeby.arbitrum.io/rpc',
+    'http://54.80.94.82:8547',
   ],
   [SupportedChainId.OPTIMISM]: [
     // "Safe" URLs
